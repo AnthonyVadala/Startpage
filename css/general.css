@@ -86,3 +86,18 @@ a:hover {
 	width:100%;
 	max-width:700px;
 }
+
+#dusty{
+	width:166.5px;
+	height:122px;
+	background-repeat:no-repeat;
+	position: fixed;
+	bottom:0px;	
+	right:120px;
+	z-index:0;	
+}
+
+@media (max-width: 600px) {
+ #dusty{
+    display: none;
+  }
