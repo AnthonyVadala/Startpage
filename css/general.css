@@ -1,12 +1,12 @@
 /* Body */
 html,
 body {
-    background-color: #312113;
-    color: #C9BD3C;
+    background-color: #322826;
+    color: #adbc9e;
 }
 
 a {
-    color: #C9BD3C;
+    color:#adbc9e;
 	text-decoration: none;
 }
 
@@ -26,7 +26,7 @@ main {
     font-size: 16px;
     background-size: contain;
     background-repeat: no-repeat;
-    background-color: #312113;
+    background-color: #322826;
 	/* Support for old browsers */
 		display: -webkit-box;
 		display: -moz-box;
@@ -55,16 +55,17 @@ ul {
 }
 
 .block ul:hover {
-    color:#6E973F;
+    color:#5B793D;
 }
 
 a:hover {
-    color:#6E973F;
+    color:#5B793D;
 }
 
 .block li:first-child {
     text-transform: uppercase;
     font-weight: bold;
+	font-size: 1.5em;
 }
 
 .block {

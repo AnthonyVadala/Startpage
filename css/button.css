@@ -2,6 +2,7 @@
 .buttonList ul {
     padding: 0;
     list-style-type: none;
+	font-weight: bold;
 }
 
 /* Button configuration */
@@ -74,25 +75,26 @@
 /* Green button */
 	.buttonGreen > a,
 	.buttonGreen > ul {
-		border-color: #6E973F;
+		border-color: #5B793D;
 	}
 	.buttonGreen > a,
-	.buttonGreen > ul > li > a {
-		color: #FFF;
-		background: #B2A044;
+	.buttonGreen > ul > li > a {		
+		color: #5B793D;
+		background: #adbc9e;
+		font-size: 1.1em;
 	}
-	.buttonGreen > a:after {
-		border-left-color: #6E973F;
+	.buttonGreen > a:after {	
+		border-left-color: #5B793D;
 	}
 	.buttonGreen:hover > a,
 	.buttonGreen > ul > li > a:hover {
-		color: #FFF;
-		background: #6E973F;
+		color: #adbc9e;
+		background: #5B793D;
 	}
 	.buttonGreen:hover > a,
 	.buttonGreen:hover > ul {
-		border-color: #6E973F;
+		border-color: #5B793D;
 	}
 	.buttonGreen:hover > a:after {
-		border-left-color: #6E973F;
+		border-left-color: #5B793D;
 	}
