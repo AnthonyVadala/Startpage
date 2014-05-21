@@ -1,8 +1,7 @@
 .buttonList,
 .buttonList ul {
     padding: 0;
-    list-style-type: none;
-	font-weight: bold;
+    list-style-type: none;	
 }
 
 /* Button configuration */
@@ -51,7 +50,7 @@
 		border-width: 0;
 		border-style: solid;
 		transition: all 0s;
-		z-index: 10;
+		z-index: 10;		
 	}
 	.button:hover > ul {
 		max-height: 200px;
@@ -67,7 +66,7 @@
 		display: inline-block;
 		width: 100%;
 		text-decoration: none;
-		padding: 5px 0;
+		padding: 5px 0;		
 		outline: 0;
 		transition: all 1s;
 	}
@@ -80,8 +79,10 @@
 	.buttonGreen > a,
 	.buttonGreen > ul > li > a {		
 		color: #5B793D;
-		background: #adbc9e;
+		text-transform: uppercase;
 		font-size: 1.1em;
+		background: #adbc9e;
+		font-weight: bold;
 	}
 	.buttonGreen > a:after {	
 		border-left-color: #5B793D;
