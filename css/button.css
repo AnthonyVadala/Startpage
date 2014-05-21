@@ -79,10 +79,8 @@
 	.buttonGreen > a,
 	.buttonGreen > ul > li > a {		
 		color: #5B793D;
-		text-transform: uppercase;
 		font-size: 1.1em;
 		background: #adbc9e;
-		font-weight: bold;
 	}
 	.buttonGreen > a:after {	
 		border-left-color: #5B793D;
