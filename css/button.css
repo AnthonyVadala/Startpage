@@ -78,7 +78,11 @@
 	}
 	.buttonGreen > a,
 	.buttonGreen > ul > li > a {		
+<<<<<<< HEAD
 		color: #5B793D;		
+=======
+		color: #5B793D;
+>>>>>>> 157c28072eb61aa3d46b8cd6b096cf21ea2f04b5
 		font-size: 1.1em;
 		background: #adbc9e;
 	}
