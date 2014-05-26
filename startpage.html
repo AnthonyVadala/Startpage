@@ -6,7 +6,31 @@
 		<link rel="shortcut icon" href="favicon.ico" />
 		<link rel="stylesheet" type="text/css" href="css/general.css" />
 		<link rel="stylesheet" type="text/css" href="css/button.css" />
+		<link rel="stylesheet" type="text/css" href="css/sidebar.css" />
+		<link rel="stylesheet" type="text/css" href="css/note.css" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!--Start Sticky Note JS -->
+		<script type="text/javascript">
+			function storeUsernote(id) {
+			  var note = document.getElementById('note').innerHTML;
+			  localStorage.setItem('usernote',note);
+			}
+
+			function getUsernote() {
+			  if ( localStorage.getItem('usernote')) {
+				var note = localStorage.getItem('usernote');
+			  }
+			  else {
+				var note = 'Write your note here';
+			  }
+			  document.getElementById('note').innerHTML = note;
+			}
+
+			function clearLocal() {
+			  clear: localStorage.clear(); 
+			  return false;
+			}
+		</script>
     </head>
     <body>	
         <main>					
@@ -33,7 +57,7 @@
 				<li class="button buttonGreen buttonArrow">
 					<a href="#">Email</a>
 					<ul>
-						<li><a href="">Gmail</a></li>
+						<li><a href="https://mail.google.com/mail/u/0/#inbox">Gmail</a></li>
 						<li><a href="">Live</a></li>
 					</ul>	
 				</li>
@@ -44,7 +68,8 @@
 						<li><a href="http://www.emuparadise.me/">EmuParadise</a></li>						
 					</ul>
 				</li>
-			</ul><img  id="dusty" src="dusty.png" />					
+			</ul>
+			
             <nav class="block">			
                 <ul>
                     <li>Vidya</li>						
@@ -75,11 +100,30 @@
                 </ul>
                 <ul>
                     <li>College</li>
-						<li><a href="">College Website</a></li>
-						<li><a href="">MyPCT</a></li>
-						<li><a href="">Plato</a></li>
+						<li><a href="http://www.pct.edu/">College Website</a></li>
+						<li><a href="https://mypct.pct.edu/CookieAuth.dll?GetLogon?curl=Z2F&reason=0&formdir=5">MyPCT</a></li>
+						<li><a href="https://learn.pct.edu/">Plato</a></li>
                 </ul>
-            </nav>				
+            </nav>	
+			
+			<div id="oneout">
+				<div class="onetitle">
+				<img  id="dusty" src="dusty.png" />
+				</div>
+				
+				<div id="oneout_inner">					
+					<div id="note-pad">
+						<div id="note" contenteditable="true" onkeyup="storeUsernote(this.id);"></div>
+					</div>					
+					<center>
+						<a class="clear" href='' onclick='javascript:clearLocal();'>Clear</a>	
+					</center>					
+					<script>
+					  getUsernote();
+					</script>					
+				</div>
+			</div>
+
         </main>			
-    </body>	
+    </body>
 </html>
