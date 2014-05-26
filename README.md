@@ -10,6 +10,11 @@ A simple startpage for desktop and mobile devices.
 
 You have to configure the links yourself.
 
+Update:
+  Added a new side bar. Hover over dusty (the cat) and a sidebar will roll out.
+  Enter any text you want in the box and it will be saved locally to your computer
+  Click "Clear" to clear what you have written.
+  
 Preview: 
 ![Alt text](/preview.png)
 Color Scheme is based on:
