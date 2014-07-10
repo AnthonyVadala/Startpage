@@ -21,6 +21,7 @@ Update:
 
 You can find the stickynote app here: https://github.com/Bokagha/StickyNote
 
+This version doesn't have the StickyNote app sidebar: https://github.com/Bokagha/Kat-Startpage-NoNote-
 
 Preview: 
 ![Alt text](/preview.png)
