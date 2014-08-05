@@ -14,3 +14,7 @@ Other Versions:
 
 - [Blue Recolor](http://bokagha.github.io/Kat-Startpage/blue/startpage.html)
 /  [Code](https://github.com/Bokagha/Kat-Startpage/tree/gh-pages/blue) 
+
+Old Designs (Not Flexible):
+- [Simple Columns](http://bokagha.github.io/Kat-Startpage/simple/startpage.html)
+/  [Code](https://github.com/Bokagha/Kat-Startpage/tree/gh-pages/simple) 
