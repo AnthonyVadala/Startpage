@@ -1,0 +1,61 @@
+<html>
+	<head>
+		<title>Simple Sticky Note</title>
+		<style>
+			#note-pad {
+				   height: 100px; 
+					background-color: #322826;
+			}  
+			#note {
+				  color: #5B793D;
+				  font-family:  calibri;
+				  font-size: 1em;
+			}
+			.clear {
+				  color: #adbc9e;
+				  font-family:  calibri;
+				  font-size: 1em;
+				  text-decoration: none;         
+			}
+		</style>
+		<!--Start JS script-->
+		<script type="text/javascript">
+			function storeUsernote(id) {
+			  var note = document.getElementById('note').innerHTML;
+			  localStorage.setItem('usernote',note);
+			}
+
+			function getUsernote() {
+			  if ( localStorage.getItem('usernote')) {
+				var note = localStorage.getItem('usernote');
+			  }
+			  else {
+				var note = 'Write your note here';
+			  }
+			  document.getElementById('note').innerHTML = note;
+			}
+
+			function clearLocal() {
+			  clear: localStorage.clear(); 
+			  return false;
+			}
+		</script>
+	</head>				
+	
+	<body>
+			
+		<div id="note-pad">
+			<div id="note" contenteditable="true" onkeyup="storeUsernote(this.id);"></div>
+		</div>					
+			
+		<center>
+			<a class="clear" href='' onclick='javascript:clearLocal();'>Clear</a>	
+		</center>	
+		
+		<script>
+			getUsernote();
+		</script>	
+		
+	</body>
+</html>	
+							
