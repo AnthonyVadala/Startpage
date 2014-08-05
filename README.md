@@ -12,4 +12,5 @@ Base Versions:
 
 Other Versions:
 
-- [Blue Recolor](http://bokagha.github.io/Kat-Startpage/default/startpage.html)
+- [Blue Recolor](http://bokagha.github.io/Kat-Startpage/blue/startpage.html)
+/  [Code](https://github.com/Bokagha/Kat-Startpage/tree/gh-pages/blue) 
