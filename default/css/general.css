@@ -1,0 +1,102 @@
+/* Body */
+html,
+body {
+    background-color: #4B4140;
+    color: #adbc9e;
+	font-size: 16px;
+}
+
+a {
+    color:#adbc9e;
+	text-decoration: none;
+}
+
+body {	
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+    font-family: calbri;
+    text-align: center;
+    border: 0;
+}
+
+main {
+	padding-top:5%;
+    display: block;    
+    font-size: 16px;
+    background-size: contain;
+    background-repeat: no-repeat;
+	/* Support for old browsers */
+		display: -webkit-box;
+		display: -moz-box;
+		display: -ms-flexbox;
+		display: -webkit-flex;
+		-webkit-box-orient: block-axis;
+		-webkit-box-direction: normal;
+		-moz-box-orient: blox-axis;
+		-moz-box-direction: normal;
+		-ms-flex-direction: column;
+		-webkit-flex-direction: column;
+    /* End */
+    display: flex;
+    flex-flow: column;
+}
+
+ul {
+    margin: 0 auto;
+    text-align: center;
+    list-style-type: none;
+}
+
+.block ul {
+    text-align: left;
+	padding: 10px;
+}
+
+.block ul:hover {
+    color:#5B793D;
+}
+
+a:hover {
+    color:#5B793D;
+}
+
+.block li:first-child {
+    text-transform: uppercase;
+    font-weight: bold;
+	font-size: 1.5em;
+}
+
+.block {
+    display: inherit;
+    /* Support for old browsers */
+		-webkit-box-orient: inline-axis;
+		-webkit-box-direction: normal;
+		-moz-box-orient: inline-axis;
+		-moz-box-direction: normal;
+		-ms-flex-direction: row;
+		-webkit-flex-direction: row;
+		-webkit-box-lines: multiple;
+		-moz-box-lines: multiple;
+		-ms-flex-wrap: wrap;
+		-webkit-flex-wrap: wrap;
+    /* End */
+    flex-flow: row wrap;  
+    margin: 120px auto;
+	width:100%;
+	max-width:700px;
+}
+
+#dusty{
+	width:166.5px;
+	height:122px;	
+}
+
+@media (max-width: 600px) {
+ #dusty{
+    display: none;
+}
+  #oneout {
+	display: none;
+}
