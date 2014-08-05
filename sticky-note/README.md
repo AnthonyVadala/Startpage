@@ -7,4 +7,4 @@ Click "Clear" to clear what you have written.
 
 This is the note taking app used in the default version of the kat-startpage
 
-- [Sticky Note Preview](http://bokagha.github.io/Kat-Startpage/sticky-note/stickynote.html)
+- [Sticky Note Preview](http://bokagha.github.io/Startpages/sticky-note/stickynote.html)
