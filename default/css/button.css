@@ -1,7 +1,7 @@
 .buttonList,
 .buttonList ul {
     padding: 0;
-    list-style-type: none;	
+    list-style-type: none;
 }
 
 /* Button configuration */
@@ -19,7 +19,7 @@
 		border-width: 2px;
 		border-style: solid;
 		outline: none;
-		transition: all 1s;
+		transition: all 0.5s;
 	}
 	.buttonArrow > a:after {
 		width: 0;
@@ -38,7 +38,7 @@
 		transition: all 0s;
 	}
 	.buttonArrow:hover > a:after {
-		transition: transform 0.5s, border 1s;
+		transition: transform 0.5s, border 0.5s;
 		transform: rotate(90deg);
 	}
 	.button > ul {
@@ -50,13 +50,13 @@
 		border-width: 0;
 		border-style: solid;
 		transition: all 0s;
-		z-index: 10;		
+		z-index: 10;
 	}
 	.button:hover > ul {
 		max-height: 200px;
 		border-width: 1px;
 		border-style: solid;
-		transition: max-height 0.1s, border 0s;
+		transition: max-height 0.5s, border 0s;
 	}
 
 	.button > ul > li {
@@ -66,9 +66,9 @@
 		display: inline-block;
 		width: 100%;
 		text-decoration: none;
-		padding: 5px 0;		
+		padding: 5px 0;
 		outline: 0;
-		transition: all 1s;
+		transition: all 0.5s;
 	}
 	
 /* Green button */
