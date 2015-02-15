@@ -1,4 +1,4 @@
-Startpage
+Simple
 =========
 
 A simple startpage for browsers. Old and can not flex, might update one day.
