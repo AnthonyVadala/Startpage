@@ -1,4 +1,4 @@
-Kat-Startpage
+Blue
 =============
 
 Blue recolor of the no-note version of kat-startpage
