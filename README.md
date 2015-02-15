@@ -2,10 +2,11 @@ Startpages
 =============
 Index:
 - [Updates](https://github.com/Bokagha/Startpages#updates)
+- [Blue 2.0-Startpage](https://github.com/Bokagha/Startpages#blue 2.0-startpage)
+- [Blue-Startpage](https://github.com/Bokagha/Startpages#blue-startpage)
 - [Kat-Startpage](https://github.com/Bokagha/Startpages#kat-startpage)
   - 	No-Note
   - 	Sticky-Note
-- [Blue-Startpage](https://github.com/Bokagha/Startpages#blue-startpage)
 - [Old Designs](https://github.com/Bokagha/Startpages/blob/master/README.md#old-designs-not-flexible)
   -  Simple Columns
 
