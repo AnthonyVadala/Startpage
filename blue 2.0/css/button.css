@@ -4,7 +4,7 @@
     list-style-type: none;
 }
 
-/* Button configuration */
+/* Button Configuration */
 	.button {
 		position: relative;
 		margin: 5px 10px;
@@ -54,7 +54,7 @@
 	}
 	.button:hover > ul {
 		max-height: 200px;
-		border-width: 1px;
+		border-width: 2px;
 		border-style: solid;
 		transition: max-height 0.5s, border 0s;
 	}
@@ -71,29 +71,29 @@
 		transition: all 0.5s;
 	}
 
-/* Green button */
-	.buttonGreen > a,
-	.buttonGreen > ul {
+/* Blue Button */
+	.buttonBlue > a,
+	.buttonBlue > ul {
 		border-color: #29354E;
 	}
-	.buttonGreen > a,
-	.buttonGreen > ul > li > a {
+	.buttonBlue > a,
+	.buttonBlue > ul > li > a {
 		color: #29354E;
 		font-size: 1.1em;
-		background: #e5e5e5;
+		background: #e5e5e5;		
 	}
-	.buttonGreen > a:after {
+	.buttonBlue > a:after {
 		border-left-color: #29354E;
 	}
-	.buttonGreen:hover > a,
-	.buttonGreen > ul > li > a:hover {
+	.buttonBlue:hover > a,
+	.buttonBlue > ul > li > a:hover {
 		color: #e5e5e5;
 		background: #29354E;
 	}
-	.buttonGreen:hover > a,
-	.buttonGreen:hover > ul {
+	.buttonBlue:hover > a,
+	.buttonBlue:hover > ul {
 		border-color: #29354E;
 	}
-	.buttonGreen:hover > a:after {
+	.buttonBlue:hover > a:after {
 		border-left-color: #29354E;
 	}
