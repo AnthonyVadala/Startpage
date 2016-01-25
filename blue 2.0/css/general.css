@@ -4,6 +4,7 @@ body {
     background-color: #e5e5e5;
     color: #29354E;
 	font-size: 16px;
+	font-family: 'Droid Sans', sans-serif;
 }
 
 a {
@@ -16,7 +17,7 @@ body {
     margin: 0;
     padding: 0;
     font-size: 0;
-    font-family: calbri;
+    font-family: 'Droid Sans', sans-serif;
     text-align: center;
     border: 0;
 }
@@ -81,22 +82,17 @@ ul {
 	max-width:700px;
 }
 
-.pad1{
-	padding-top: 20px;
-}
-.pad2{
+.pad{
 	padding-top: 120px;
 }
 
-iframe {
-	border:none;
-	height: 210px;
-	width:100%;
-	color: #29354E;
-}
-
 #block{
-	box-shadow:2px 2px 0px 0px #29354E inset;
+	border-top-style: solid;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: solid;
+	border-color: #29354E;
+	border-width: 2px;
 	background-color: #e5e5e5;				
 	height:35px;
 	padding-top: 10px;
@@ -108,4 +104,5 @@ iframe {
 	#block:hover {		
 		background-color: #29354E;
 		color:#e5e5e5;	
+		transition: all 0.5s;
 	}
