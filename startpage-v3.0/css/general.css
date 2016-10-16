@@ -4,121 +4,262 @@
    License: none (public domain)
 */
 
-html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,
-del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,
-form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,
-figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{
-	margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}
-article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{
-	display:block}
-	body{
-		line-height:1}
-	ol,ul{list-style:none}
-	blockquote,q{quotes:none
-	}blockquote:before,blockquote:after,q:before,q:after{
-		content:'';content:none}
-		table{border-collapse:collapse;border-spacing:0}
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block
+}
+
+body {
+    line-height: 1
+}
+
+ol,
+ul {
+    list-style: none
+}
+
+blockquote,
+q {
+    quotes: none
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+
 /*********************************************END RESET*********************************************\
 
 
 /* Body and General Settings */
-	html,
-	body {
-		background-color: #e5e5e5;
-		color: #455246;
-		font-size: 16px;
-		font-family: 'Droid Sans', sans-serif;		
-	}h1{
-		font-size: 32px;
-		font-weight: bold;
-	}
-	a {
-		color:#455246;
-		text-decoration: none;
-	}
-	ul {		
-		list-style-type: none;
-	}	
+
+html,
+body {
+    background-color: #e5e5e5;
+    color: #455246;
+    font-size: 16px;
+    font-family: 'Droid Sans', sans-serif;
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+a {
+    color: #455246;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
 
 /* Greeting */
-	#greeting{
-		text-align: center;
-		margin-top: 5%;
-		margin-bottom: 10px;
-	}
-	#color {
-		color:#A03537;		
-	}
-	/* Blinking */
-		@keyframes blink {
-		  50% {
-			opacity: 0.0;
-		  }
-		}
-		@-webkit-keyframes blink {
-		  50% {
-			opacity: 0.0;
-		  }
-		}
-		#blink {
-		  animation: blink 1.5s step-start 0s infinite;
-		  -webkit-animation: blink 1s step-start 0s infinite;
-		}
+
+#greeting {
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 10px;
+}
+
+#color {
+    color: #A03537;
+}
+
+
+/* Blinking */
+
+@keyframes blink {
+    50% {
+        opacity: 0.0;
+    }
+}
+
+@-webkit-keyframes blink {
+    50% {
+        opacity: 0.0;
+    }
+}
+
+#blink {
+    animation: blink 1.5s step-start 0s infinite;
+    -webkit-animation: blink 1s step-start 0s infinite;
+}
+
 
 /* Dividing Line Settings */
-	#line {
-		width: 75%;
-		border-top-style: solid;
-		border-color: #455246;
-		border-width: 2px;
-		margin: 0px auto;
-		margin-bottom:50px;
-		margin-top:15px;
-	}
-	
+
+#line {
+    width: 75%;
+    border-top-style: solid;
+    border-color: #455246;
+    border-width: 2px;
+    margin: 0px auto;
+    margin-bottom: 50px;
+    margin-top: 15px;
+}
+
+
 /*Top Link Settings*/
-	#t_list {
-		display: inline-block;
-	}
-	#t_list li {
-		display:inline-block;
-		list-style-type: none;			
-	}
-	.t_button {
-		border-style:solid;
-		border-width: 2px;
-		height:35px;
-		width: 150px;		
-		text-align:center;
-		float: left;
-		padding-top: 15px;
-		margin: 15px;
-		font-size: 20px;
-	}
-	.t_button:hover {		
-			background-color:#455246;
-			color:#e5e5e5;	
-			transition: all 0.75s;
-		}
-		
+
+#t_list {
+    display: inline-block;
+}
+
+#t_list li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+.t_button {
+    border-style: solid;
+    border-width: 2px;
+    height: 35px;
+    width: 150px;
+    text-align: center;
+    float: left;
+    padding-top: 15px;
+    margin: 15px;
+    font-size: 20px;
+}
+
+.t_button:hover {
+    background-color: #455246;
+    color: #e5e5e5;
+    transition: all 0.75s;
+}
+
+
 /* Bottom Button Settings */
-	.b_list{
-		display: inline-block;
-	}
-	.b_button {
-		border-style:solid;
-		border-width: 2px;
-		height:35px;
-		width: 125px;		
-		text-align:left;
-		float: left;
-		padding-top: 15px;
-		padding-left:10px;
-		margin-bottom:5px;
-		margin:10px;
-	}
-	.b_button:hover {		
-			background-color:#455246;
-			color:#e5e5e5;	
-			transition: all 0.75s;
-		}
+
+.b_list {
+    display: inline-block;
+}
+
+.b_button {
+    border-style: solid;
+    border-width: 2px;
+    height: 35px;
+    width: 125px;
+    text-align: left;
+    float: left;
+    padding-top: 15px;
+    padding-left: 10px;
+    margin-bottom: 5px;
+    margin: 10px;
+}
+
+.b_button:hover {
+    background-color: #455246;
+    color: #e5e5e5;
+    transition: all 0.75s;
+}
