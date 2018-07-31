@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Start Page</title>
+	<!-- General CSS -->
+	<link rel="stylesheet" href="css/general.css" />
+	<!-- Button CSS -->
+	<link rel="stylesheet" href="css/button.css" />
+	<!-- Sidebar CSS -->
+	<link rel="stylesheet" href="css/sidebar.css" />
+	<!-- Notepad CSS -->
+	<link rel="stylesheet" href="css/note.css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Start Sticky Note JS -->
+	<script>
+		function storeUsernote(id) {
+			var note = document.getElementById('note').innerHTML;
+			localStorage.setItem('usernote', note);
+		}
+
+		function getUsernote() {
+			if (localStorage.getItem('usernote')) {
+				var note = localStorage.getItem('usernote');
+			}
+			else {
+				var note = 'Write your note here';
+			}
+			document.getElementById('note').innerHTML = note;
+		}
+
+		function clearLocal() {
+			clear: localStorage.clear();
+			return false;
+		}
+	</script>
+</head>
+
+<body>
+	<main>
+		<!-- Drop Down Section -->
+		<ul class="buttonList">
+			<!-- Drop Down 1 -->
+			<li class="button buttonGreen buttonArrow">
+				<a href="#blank">Drop Down 1</a>
+				<ul>
+					<li>
+						<a href="#blank" rel="noopener">Link 1</a>
+					</li>
+					<li>
+						<a href="#blank" rel="noopener">Link 2</a>
+					</li>
+					<li>
+						<a href="#blank" rel="noopener">Link 3</a>
+					</li>
+					<li>
+						<a href="#blank" rel="noopener">Link 4</a>
+					</li>
+				</ul>
+			</li>
+			<!-- Drop Down 2 -->
+			<li class="button buttonGreen buttonArrow">
+				<a href="#">Drop Down 2</a>
+				<ul>
+					<li>
+						<a href="#blank" rel="noopener">Link 1</a>
+					</li>
+					<li>
+						<a href="#blank" rel="noopener">Link 2</a>
+					</li>
+					<li>
+						<a href="#blank" rel="noopener">Link 3</a>
+					</li>
+					<li>
+						<a href="#blank" rel="noopener">Link 4</a>
+					</li>
+				</ul>
+			</li>
+			<!-- Drop Down 3 -->
+			<li class="button buttonGreen buttonArrow">
+				<a href="#blank">Drop Down 3</a>
+				<ul>
+					<li>
+						<a href="#blank" rel="noopener">Link 1</a>
+					</li>
+					<li>
+						<a href="#blank" rel="noopener">Link 2</a>
+					</li>
+					<li>
+						<a href="#blank" rel="noopener">Link 3</a>
+					</li>
+					<li>
+						<a href="#blank" rel="noopener">Link 4</a>
+					</li>
+				</ul>
+			</li>
+			<!-- Drop Down 4 -->
+			<li class="button buttonGreen buttonArrow">
+				<a href="#blank">Drop Down 4</a>
+				<ul>
+					<li>
+						<a href="#blank" rel="noopener">Link 1</a>
+					</li>
+					<li>
+						<a href="#blank" rel="noopener">Link 2</a>
+					</li>
+					<li>
+						<a href="#blank" rel="noopener">Link 3</a>
+					</li>
+					<li>
+						<a href="#blank" rel="noopener">Link 4</a>
+					</li>
+				</ul>
+			</li>
+		</ul>
+		<!-- Columns Section -->
+		<nav class="block">
+			<!-- Column 1 -->
+			<ul>
+				<li>Column 1</li>
+				<li>
+					<a href="#blank" rel="noopener">Link 1</a>
+				</li>
+				<li>
+					<a href="#blank" rel="noopener">Link 2</a>
+				</li>
+				<li>
+					<a href="#blank" rel="noopener">Link 3</a>
+				</li>
+				<li>
+					<a href="#blank" rel="noopener">Link 4</a>
+				</li>
+				<li>
+					<a href="#blank" rel="noopener">Link 5</a>
+				</li>
+				<li>
+					<a href="#blank" rel="noopener">Link 6</a>
+				</li>
+			</ul>
+			<!-- Column 2 -->
+			<ul>
+				<li>Column 2</li>
+				<li>
+					<a href="#blank" rel="noopener">Link 1</a>
+				</li>
+				<li>
+					<a href="#blank" rel="noopener">Link 2</a>
+				</li>
+				<li>
+					<a href="#blank" rel="noopener">Link 3</a>
+				</li>
+				<li>
+					<a href="#blank" rel="noopener">Link 4</a>
+				</li>
+				<li>
+					<a href="#blank" rel="noopener">Link 5</a>
+				</li>
+				<li>
+					<a href="#blank" rel="noopener">Link 6</a>
+				</li>
+			</ul>
+			<!-- Column 3 -->
+			<ul>
+				<li>Column 3</li>
+				<li>
+					<a href="#blank" rel="noopener">Link 1</a>
+				</li>
+				<li>
+					<a href="#blank" rel="noopener">Link 2</a>
+				</li>
+				<li>
+					<a href="#blank" rel="noopener">Link 3</a>
+				</li>
+				<li>
+					<a href="#blank" rel="noopener">Link 4</a>
+				</li>
+				<li>
+					<a href="#blank" rel="noopener">Link 5</a>
+				</li>
+				<li>
+					<a href="#blank" rel="noopener">Link 6</a>
+				</li>
+			</ul>
+			<!-- Column 4 -->
+			<ul>
+				<li>Column 4</li>
+				<li>
+					<a href="#blank" rel="noopener">Link 1</a>
+				</li>
+				<li>
+					<a href="#blank" rel="noopener">Link 2</a>
+				</li>
+				<li>
+					<a href="#blank" rel="noopener">Link 3</a>
+				</li>
+				<li>
+					<a href="#blank" rel="noopener">Link 4</a>
+				</li>
+				<li>
+					<a href="#blank" rel="noopener">Link 5</a>
+				</li>
+				<li>
+					<a href="#blank" rel="noopener">Link 6</a>
+				</li>
+			</ul>
+		</nav>
+		<!-- Popup for Notes -->
+		<div id="oneout">
+			<div class="onetitle">
+				<img id="dusty" src="dusty.png" />
+			</div>
+			<div id="oneout_inner">
+				<div id="note-pad">
+					<div id="note" contenteditable="true" onkeyup="storeUsernote(this.id);"></div>
+				</div>
+				<center>
+					<a class="clear" href='' onclick='javascript:clearLocal();'>Clear</a>
+				</center>
+				<script>
+					getUsernote();
+				</script>
+			</div>
+		</div>
+	</main>
+</body>
+
+</html>
