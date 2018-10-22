@@ -7,12 +7,6 @@
 - [Startpage Archive](https://github.com/AnthonyVadala/Startpage#startpage-archive)
 
 
-## UPDATES
-
-	Added Startpage v3.0
-	Moved old Startpages to Startpage Archive branch
-
-
 ## STARTPAGE
 
 This is a complete overhaul of Blue 2.0:
