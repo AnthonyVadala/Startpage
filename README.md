@@ -4,8 +4,8 @@
 
 - [Updates](https://github.com/AnthonyVadala/Startpage#updates)
 - [Startpage](https://github.com/AnthonyVadala/Startpage#startpage)
-- [Startpage](https://github.com/AnthonyVadala/Startpage#links)
-- [Startpage](https://github.com/AnthonyVadala/Startpage#preview)
+- [Links](https://github.com/AnthonyVadala/Startpage#links)
+- [Preview](https://github.com/AnthonyVadala/Startpage#preview)
 - [Startpage Archive](https://github.com/AnthonyVadala/Startpage#startpage-archive)
 
 
