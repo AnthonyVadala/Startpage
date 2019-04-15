@@ -141,8 +141,8 @@ table {
 
 html,
 body {
-	background-color: #e5e5e5;
-	color: #455246;
+	background-color: #fdfdfd;
+	color: #fdfdfd;
 	font-size: 16px;
 	font-family: 'Droid Sans', sans-serif;
 }
@@ -156,8 +156,7 @@ h1 {
 
 #greeting {
 	text-align: center;
-	margin-top: 5%;
-	margin-bottom: 10px;
+	padding-bottom: 15px;
 }
 
 #color {
@@ -185,6 +184,12 @@ h1 {
 
 /* Top Link Settings */
 
+#top_section {
+	background-color: #29354e;
+	padding-top: 153.5px;
+	padding-bottom: 15px;
+}
+
 #t_list {
 	display: inline-block;
 }
@@ -195,6 +200,7 @@ h1 {
 }
 
 .t_button {
+	color: #fdfdfd;
 	border-style: solid;
 	border-width: 2px;
 	height: 35px;
@@ -207,27 +213,16 @@ h1 {
 }
 
 .t_button:hover {
-	background-color: #455246;
-	color: #e5e5e5;
+	background-color: #fdfdfd;
+	color: #29354e;
 	transition: all 0.75s;
-}
-
-/* Dividing Line Settings */
-
-#line {
-	width: 75%;
-	border-top-style: solid;
-	border-color: #455246;
-	border-width: 2px;
-	margin: 0px auto;
-	margin-bottom: 50px;
-	margin-top: 15px;
 }
 
 /* Bottom Button Settings */
 
 .b_list {
 	display: inline-block;
+	padding-top: 30px;
 }
 
 .b_button {
@@ -244,18 +239,53 @@ h1 {
 }
 
 .b_button:hover {
-	background-color: #455246;
-	color: #e5e5e5;
+	background-color: #29354e;
+	color: #fdfdfd;
 	transition: all 0.75s;
 }
 
 /* List & Link */
 
 a {
-	color: #455246;
+	color: #29354e;
 	text-decoration: none;
 }
 
 ul {
 	list-style-type: none;
+}
+
+
+/* Dark Theme */
+@media (prefers-color-scheme: dark) {
+	html,
+	body {
+		background-color: #3f5279;
+		color: #fdfdfd;
+	}
+
+	/* Top Link Settings */
+
+	#top_section {
+		background-color: #29354e;
+	}
+
+	.t_button:hover {
+		background-color: #fdfdfd;
+		color: #29354e;
+	}
+
+	/* Bottom Button Settings */
+
+	.b_button:hover {
+		background-color: #fdfdfd;
+		color: #29354e;
+	}
+
+	/* List & Link */
+
+	a {
+		color: #fdfdfd;
+		text-decoration: none;
+	}
 }

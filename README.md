@@ -18,6 +18,7 @@ This is a complete overhaul of Blue 2.0:
 - More code annotations
 - (ALMOST) Fully compliant HTML5 and CSS3 validation (center is just such a convenient tag)
 - More blinking (RIP blink tag)
+- (NEW) Added [dark mode support](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme)!
 
 
 ## LINKS
